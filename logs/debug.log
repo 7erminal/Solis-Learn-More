@@ -1,0 +1,1298 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2314
+Not Found: /apple-touch-icon-precomposed.png
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2428
+Not Found: /apple-touch-icon.png
+"GET /apple-touch-icon.png HTTP/1.1" 404 2392
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2365
+Not Found: /
+"GET / HTTP/1.1" 404 2314
+Not Found: /api
+"GET /api HTTP/1.1" 404 2341
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 3020
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 3172
+Not Found: /
+"GET / HTTP/1.1" 404 2466
+Not Found: /api-auth/
+"GET /api-auth/ HTTP/1.1" 404 2885
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2466
+Not Found: /api
+"GET /api HTTP/1.1" 404 2493
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 2593
+"GET /api/portal HTTP/1.1" 301 0
+"GET /api/portal/ HTTP/1.1" 200 5698
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /api/portal/ HTTP/1.1" 200 5698
+"GET /api-auth/login/?next=/api/portal/ HTTP/1.1" 200 2712
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /api-auth/login/ HTTP/1.1" 302 0
+"GET /api/portal/ HTTP/1.1" 200 6231
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/permissions.py", line 243, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/permissions.py", line 219, in _queryset
+    assert hasattr(view, 'get_queryset') \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        or getattr(view, 'queryset', None) is not None, (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+"GET /api/portal/videos/ HTTP/1.1" 500 107541
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/permissions.py", line 243, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/permissions.py", line 219, in _queryset
+    assert hasattr(view, 'get_queryset') \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        or getattr(view, 'queryset', None) is not None, (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+"GET /api/portal/videos/ HTTP/1.1" 500 107379
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /portal/languages/
+"POST /portal/languages/ HTTP/1.1" 404 2536
+Internal Server Error: /api/portal/languages/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/permissions.py", line 243, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/permissions.py", line 219, in _queryset
+    assert hasattr(view, 'get_queryset') \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        or getattr(view, 'queryset', None) is not None, (
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+"POST /api/portal/languages/ HTTP/1.1" 500 105877
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/portal/languages/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 125, in create
+    resp = Resp(StatusDesc=message, StatusCode=status_, Result=LanguageSerializerGet(language).data)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 1056, in get_fields
+    assert hasattr(self, 'Meta'), (
+           ~~~~~~~^^^^^^^^^^^^^^
+AssertionError: Class LanguageSerializerGet missing "Meta" attribute
+"POST /api/portal/languages/ HTTP/1.1" 500 122016
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/portal/languages/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Resp' object has no attribute 'statusCode'. Did you mean: 'StatusCode'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 126, in create
+    return Response(LanguageResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `statusCode` on serializer `LanguageResponseSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Resp` instance.
+Original exception text was: 'Resp' object has no attribute 'statusCode'.
+"POST /api/portal/languages/ HTTP/1.1" 500 121912
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/portal/languages/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'languageName'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 126, in create
+    return Response(LanguageResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `languageName` on serializer `LanguageSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'languageName'.
+"POST /api/portal/languages/ HTTP/1.1" 500 131296
+Internal Server Error: /api/portal/languages/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'languageName'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 126, in create
+    return Response(LanguageResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `languageName` on serializer `LanguageSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'languageName'.
+"POST /api/portal/languages/ HTTP/1.1" 500 131296
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/portal/languages/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 126, in create
+    return Response(LanguageResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'name'.
+"POST /api/portal/languages/ HTTP/1.1" 500 131082
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /api/portal/languages/ HTTP/1.1" 201 104
+"POST /api/portal/languages/ HTTP/1.1" 201 100
+"POST /api/portal/languages/ HTTP/1.1" 201 104
+Watching for file changes with StatReloader
+Not Found: /categories
+"OPTIONS /categories HTTP/1.1" 404 2518
+"OPTIONS /api/portal/categories HTTP/1.1" 301 0
+"OPTIONS /api/portal/categories HTTP/1.1" 301 0
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories HTTP/1.1" 301 0
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories HTTP/1.1" 200 0
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+"POST /api/portal/categories/ HTTP/1.1" 201 114
+Error retrieving categories: Got AttributeError when attempting to get a value for field `name` on serializer `CategorySerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ListSerializer` instance.
+Original exception text was: 'ListSerializer' object has no attribute 'name'.
+Internal Server Error: /api/portal/categories/
+"GET /api/portal/categories/ HTTP/1.1" 500 39
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Error retrieving categories: Got AttributeError when attempting to get a value for field `name` on serializer `CategorySerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ListSerializer` instance.
+Original exception text was: 'ListSerializer' object has no attribute 'name'.
+Internal Server Error: /api/portal/categories/
+"GET /api/portal/categories/ HTTP/1.1" 500 39
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Error retrieving categories: Got AttributeError when attempting to get a value for field `name` on serializer `CategorySerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/categories/
+"GET /api/portal/categories/ HTTP/1.1" 500 39
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Error retrieving categories: Got AttributeError when attempting to get a value for field `name` on serializer `CategorySerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/categories/
+"GET /api/portal/categories/ HTTP/1.1" 500 39
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Serialized categories: [{'name': 'Blue', 'description': 'blue lake'}]
+Error retrieving categories: Got AttributeError when attempting to get a value for field `name` on serializer `CategorySerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/categories/
+"GET /api/portal/categories/ HTTP/1.1" 500 39
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Serialized categories: [{'name': 'Blue', 'description': 'blue lake'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 120
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Serialized categories: [{'name': 'Blue', 'description': 'blue lake'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 120
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Serialized categories: [{'name': 'Blue', 'description': 'blue lake'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 120
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Serialized categories: [{'name': 'Blue', 'description': 'blue lake'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 120
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+"POST /api/portal/categories/ HTTP/1.1" 201 124
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (1)>, <Category: Category object (2)>]>
+Serialized categories: [{'categoryId': 1, 'name': 'Blue', 'description': 'blue lake'}, {'categoryId': 2, 'name': 'Yellow', 'description': 'a yellow category'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 202
+"OPTIONS /api/portal/categories/2 HTTP/1.1" 200 0
+Not Found: /api/portal/categories/2
+"DELETE /api/portal/categories/2 HTTP/1.1" 404 3232
+Not Found: /api/portal/categories/2
+"DELETE /api/portal/categories/2 HTTP/1.1" 404 3232
+"OPTIONS /api/portal/categories/2/ HTTP/1.1" 200 0
+Not Found: /api/portal/categories/2/
+"DELETE /api/portal/categories/2/ HTTP/1.1" 404 3235
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"DELETE /api/portal/categories/2/ HTTP/1.1" 204 43
+Retrieved categories: <QuerySet [<Category: Category object (1)>]>
+Serialized categories: [{'categoryId': 1, 'name': 'Blue', 'description': 'blue lake'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 135
+Not Found: /api/portal/categories/2/
+"DELETE /api/portal/categories/2/ HTTP/1.1" 404 30
+"OPTIONS /api/portal/categories/1/ HTTP/1.1" 200 0
+"DELETE /api/portal/categories/1/ HTTP/1.1" 204 43
+Retrieved categories: <QuerySet []>
+Serialized categories: []
+"GET /api/portal/categories/ HTTP/1.1" 200 79
+"POST /api/portal/categories/ HTTP/1.1" 201 130
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+"POST /api/portal/categories/ HTTP/1.1" 201 130
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+"POST /api/portal/categories/ HTTP/1.1" 201 128
+Retrieved categories: <QuerySet [<Category: Category object (3)>, <Category: Category object (4)>, <Category: Category object (5)>]>
+Serialized categories: [{'categoryId': 3, 'name': 'Getit', 'description': 'Hoolahoop'}, {'categoryId': 4, 'name': 'Piston', 'description': 'Galgadot'}, {'categoryId': 5, 'name': 'Secondi', 'description': 'Taadi'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 250
+"POST /api/portal/categories/ HTTP/1.1" 201 128
+Retrieved categories: <QuerySet [<Category: Category object (3)>, <Category: Category object (4)>, <Category: Category object (5)>, <Category: Category object (6)>]>
+Serialized categories: [{'categoryId': 3, 'name': 'Getit', 'description': 'Hoolahoop'}, {'categoryId': 4, 'name': 'Piston', 'description': 'Galgadot'}, {'categoryId': 5, 'name': 'Secondi', 'description': 'Taadi'}, {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 306
+"OPTIONS /api/portal/categories/3/ HTTP/1.1" 200 0
+"DELETE /api/portal/categories/3/ HTTP/1.1" 204 43
+Retrieved categories: <QuerySet [<Category: Category object (4)>, <Category: Category object (5)>, <Category: Category object (6)>]>
+Retrieved categories: <QuerySet [<Category: Category object (4)>, <Category: Category object (5)>, <Category: Category object (6)>]>
+Serialized categories: [{'categoryId': 4, 'name': 'Piston', 'description': 'Galgadot'}, {'categoryId': 5, 'name': 'Secondi', 'description': 'Taadi'}, {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+Serialized categories: [{'categoryId': 4, 'name': 'Piston', 'description': 'Galgadot'}, {'categoryId': 5, 'name': 'Secondi', 'description': 'Taadi'}, {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+- Broken pipe from ('127.0.0.1', 60635)
+"GET /api/portal/categories/ HTTP/1.1" 200 248
+"OPTIONS /api/portal/categories/4/ HTTP/1.1" 200 0
+"DELETE /api/portal/categories/4/ HTTP/1.1" 204 43
+Retrieved categories: <QuerySet [<Category: Category object (5)>, <Category: Category object (6)>]>
+Serialized categories: [{'categoryId': 5, 'name': 'Secondi', 'description': 'Taadi'}, {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 190
+"OPTIONS /api/portal/categories/5/ HTTP/1.1" 200 0
+"DELETE /api/portal/categories/5/ HTTP/1.1" 204 43
+Retrieved categories: <QuerySet [<Category: Category object (6)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 134
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 58, in list
+    return Response(VideoUploadResponseSerializer(resp.data).data, status.HTTP_200_OK)
+                                                  ^^^^^^^^^
+AttributeError: 'Resp' object has no attribute 'data'
+"GET /api/portal/videos/ HTTP/1.1" 500 19128
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+"OPTIONS /api/portal/languages/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (6)>]>
+Error retrieving languages: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ListSerializer` instance.
+Original exception text was: 'ListSerializer' object has no attribute 'name'.
+Internal Server Error: /api/portal/languages/
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+"GET /api/portal/languages/ HTTP/1.1" 500 38
+"GET /api/portal/categories/ HTTP/1.1" 200 134
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 58, in list
+    return Response(VideoUploadResponseSerializer(resp.data).data, status.HTTP_200_OK)
+                                                  ^^^^^^^^^
+AttributeError: 'Resp' object has no attribute 'data'
+"GET /api/portal/videos/ HTTP/1.1" 500 19128
+Retrieved categories: <QuerySet [<Category: Category object (6)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 134
+"POST /api/portal/categories/ HTTP/1.1" 201 154
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Error retrieving languages: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ListSerializer` instance.
+Original exception text was: 'ListSerializer' object has no attribute 'name'.
+Internal Server Error: /api/portal/languages/
+"GET /api/portal/languages/ HTTP/1.1" 500 38
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 58, in list
+    return Response(VideoUploadResponseSerializer(resp.data).data, status.HTTP_200_OK)
+                                                  ^^^^^^^^^
+AttributeError: 'Resp' object has no attribute 'data'
+"GET /api/portal/videos/ HTTP/1.1" 500 19128
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Error retrieving languages: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/languages/
+"GET /api/portal/languages/ HTTP/1.1" 500 38
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'ReturnList' object has no attribute 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 58, in list
+    return Response(VideoUploadResponseSerializer(resp).data, status.HTTP_200_OK)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `category` on serializer `VideoUploadSerializerList`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'category'.
+"GET /api/portal/videos/ HTTP/1.1" 500 21524
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Error retrieving languages: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/languages/
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 500 38
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'ReturnList' object has no attribute 'video_log_category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 58, in list
+    return Response(VideoUploadResponseSerializer(resp).data, status.HTTP_200_OK)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video_log_category` on serializer `VideoUploadSerializerList`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'video_log_category'.
+"GET /api/portal/videos/ HTTP/1.1" 500 21574
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet []>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: []
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Error retrieving languages: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/languages/
+"GET /api/portal/languages/ HTTP/1.1" 500 38
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'ReturnList' object has no attribute 'video_log_category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 60, in list
+    return Response(VideoUploadResponseSerializer(resp).data, status.HTTP_200_OK)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video_log_category` on serializer `VideoUploadSerializerList`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'video_log_category'.
+"GET /api/portal/videos/ HTTP/1.1" 500 21574
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+Error retrieving languages: Got AttributeError when attempting to get a value for field `name` on serializer `LanguageSerializerGet`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'name'.
+Internal Server Error: /api/portal/languages/
+"GET /api/portal/languages/ HTTP/1.1" 500 38
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+Video upload failed: {'videoFile': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 89
+Video upload failed: {'videoFile': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 89
+Video upload failed: {'videoFile': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 89
+Video upload failed: {'videoFile': [ErrorDetail(string='No file was submitted.', code='required')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 40
+Video upload failed: {'videoFile': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 89
+Video upload failed: {'videoFile': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 89
+Video upload failed: {'videoFile': [ErrorDetail(string='The submitted data was not a file. Check the encoding type on the form.', code='invalid')]}
+Bad Request: /api/portal/videos/
+"POST /api/portal/videos/ HTTP/1.1" 400 89
+Uploading video file: Backened account LOCK .mp4
+Title: Jess Park
+Description: The video about jess park in the woods
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'VideoLog' object has no attribute 'video_log_category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 45, in create
+    resp = Resp(StatusDesc=message, StatusCode=status_, Result=VideoUploadSerializerList(video).data)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video_log_category` on serializer `VideoUploadSerializerList`.
+The serializer field might be named incorrectly and not match any attribute or key on the `VideoLog` instance.
+Original exception text was: 'VideoLog' object has no attribute 'video_log_category'.
+"POST /api/portal/videos/ HTTP/1.1" 500 21508
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Uploading video file: Backened account LOCK .mp4
+Title: Jess Park
+Description: The video about jess park in the woods
+"POST /api/portal/videos/ HTTP/1.1" 201 390
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>]>
+Serialized videos: [{'videoLogId': 1, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z'}, {'videoLogId': 2, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z'}]
+Internal Server Error: /api/portal/videos/
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'ReturnList' object has no attribute 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py", line 60, in list
+    return Response(VideoUploadResponseSerializer(resp).data, status.HTTP_200_OK)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/bedeabbe/Desktop/projects/python/solis_learn_more_backend_venv/lib/python3.13/site-packages/rest_framework/fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `category` on serializer `VideoUploadSerializerList`.
+The serializer field might be named incorrectly and not match any attribute or key on the `ReturnList` instance.
+Original exception text was: 'ReturnList' object has no attribute 'category'.
+"GET /api/portal/videos/ HTTP/1.1" 500 21524
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+"OPTIONS /api/portal/languages/ HTTP/1.1" 200 0
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z'}, {'videoLogId': 2, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z'}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/videos/ HTTP/1.1" 200 714
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z'}, {'videoLogId': 2, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z'}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+"GET /api/portal/videos/ HTTP/1.1" 200 714
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z'}, {'videoLogId': 2, 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG'}, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z'}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/videos/ HTTP/1.1" 200 714
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+"OPTIONS /api/portal/languages/ HTTP/1.1" 200 0
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Serialized videos: [{'videoLogId': 1, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}]
+"GET /api/portal/videos/ HTTP/1.1" 200 1058
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/videos/ HTTP/1.1" 200 1058
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+Uploading video file: Financial_literacy.mp4
+Title: Gidem
+Description: play
+"POST /api/portal/videos/ HTTP/1.1" 201 546
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'title': 'Gidem', 'description': 'play', 'videoFile': '/media/video-logs/Financial_literacy.mp4', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+"GET /api/portal/videos/ HTTP/1.1" 200 1534
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+"OPTIONS /api/portal/languages/ HTTP/1.1" 200 0
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Serialized videos: [{'videoLogId': 1, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'title': 'Gidem', 'description': 'play', 'videoFile': '/media/video-logs/Financial_literacy.mp4', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Response prepared: <adminportal.views.Resp object at 0x10899c550>
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/videos/ HTTP/1.1" 200 1534
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/views.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized videos: [{'videoLogId': 1, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'title': 'Gidem', 'description': 'play', 'videoFile': '/media/video-logs/Financial_literacy.mp4', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': None, 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'videoFile': None, 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'title': 'Gidem', 'description': 'play', 'videoFile': None, 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/videos/ HTTP/1.1" 200 1534
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'videoFile': '/media/video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': '/media/video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': '/media/video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'videoFile': None, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': None, 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': None, 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/videos/ HTTP/1.1" 200 1534
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/adminportal/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/videos/ HTTP/1.1" 200 1643
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Not Found: /video-logs/Backened_account_LOCK__MSDnaPW.mp4
+Not Found: /video-logs/Backened_account_LOCK_.mp4
+Not Found: /video-logs/Financial_literacy.mp4
+"GET /video-logs/Backened_account_LOCK__MSDnaPW.mp4 HTTP/1.1" 404 2619
+"GET /video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 404 2595
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /video-logs/Financial_literacy.mp4 HTTP/1.1" 404 2583
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+"GET /api/portal/videos/ HTTP/1.1" 200 1643
+Not Found: /video-logs/Financial_literacy.mp4
+Not Found: /video-logs/Backened_account_LOCK_.mp4
+Not Found: /video-logs/Backened_account_LOCK__MSDnaPW.mp4
+"GET /video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 404 2595
+"GET /video-logs/Financial_literacy.mp4 HTTP/1.1" 404 2583
+"GET /video-logs/Backened_account_LOCK__MSDnaPW.mp4 HTTP/1.1" 404 2619
+"OPTIONS /api/portal/categories/ HTTP/1.1" 200 0
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+"OPTIONS /api/portal/videos/ HTTP/1.1" 200 0
+"OPTIONS /api/portal/languages/ HTTP/1.1" 200 0
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Serialized videos: [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+"GET /api/portal/videos/ HTTP/1.1" 200 1643
+Not Found: /media/video-logs/Backened_account_LOCK_.mp4
+Not Found: /media/video-logs/Financial_literacy.mp4
+Not Found: /media/video-logs/Backened_account_LOCK__MSDnaPW.mp4
+"GET /media/video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 404 2613
+"GET /media/video-logs/Financial_literacy.mp4 HTTP/1.1" 404 2601
+"GET /media/video-logs/Backened_account_LOCK__MSDnaPW.mp4 HTTP/1.1" 404 2637
+Not Found: /media/video-logs/Backened_account_LOCK_.mp4
+"GET /media/video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 404 2613
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2517
+/Users/bedeabbe/Desktop/projects/python/solis_learn_more/solis_learn_more/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /media/video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 200 13157889
+"GET /media/video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 200 13157889
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (2)>, <VideoLog: VideoLog object (3)>]>
+Retrieved categories: <QuerySet [<Category: Category object (6)>, <Category: Category object (7)>]>
+Retrieved languages: <QuerySet [<Language: Language object (1)>, <Language: Language object (2)>, <Language: Language object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Serialized categories: [{'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi'}, {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building'}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 2, 'videoFile': 'video-logs/Backened_account_LOCK__MSDnaPW.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:35:51.608957Z', 'updated_at': '2025-12-31T06:35:51.642054Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+Serialized languages: [{'languageId': 1, 'name': 'English', 'code': 'ENG'}, {'languageId': 2, 'name': 'Twi', 'code': 'TWI'}, {'languageId': 3, 'name': 'Dagbani', 'code': 'DAG'}]
+"GET /api/portal/categories/ HTTP/1.1" 200 216
+"GET /api/portal/languages/ HTTP/1.1" 200 214
+"GET /api/portal/videos/ HTTP/1.1" 200 1643
+"GET /media/video-logs/Backened_account_LOCK__MSDnaPW.mp4 HTTP/1.1" 200 13157889
+"GET /media/video-logs/Backened_account_LOCK_.mp4 HTTP/1.1" 200 13157889
+"GET /media/video-logs/Financial_literacy.mp4 HTTP/1.1" 200 39837461
+"OPTIONS /api/portal/videos/2/ HTTP/1.1" 200 0
+"DELETE /api/portal/videos/2/ HTTP/1.1" 204 40
+Retrieved videos: <QuerySet [<VideoLog: VideoLog object (1)>, <VideoLog: VideoLog object (3)>]>
+Serialized videos: [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]
+Response prepared: {'StatusCode': 200, 'StatusDesc': 'Videos retrieved successfully', 'Result': [{'videoLogId': 1, 'videoFile': 'video-logs/Backened_account_LOCK_.mp4', 'title': 'Jess Park', 'description': 'The video about jess park in the woods', 'created_at': '2025-12-31T06:33:49.729218Z', 'updated_at': '2025-12-31T06:33:49.807795Z', 'category': {'categoryId': 6, 'name': 'Blendi', 'description': 'Trendi', 'created_at': '2025-12-30T18:40:40.268640Z', 'updated_at': '2025-12-30T18:40:40.314282Z'}, 'language': {'languageId': 1, 'name': 'English', 'code': 'ENG', 'created_at': '2025-12-23T19:23:52.363979Z', 'updated_at': '2025-12-23T19:23:52.433686Z'}}, {'videoLogId': 3, 'videoFile': 'video-logs/Financial_literacy.mp4', 'title': 'Gidem', 'description': 'play', 'created_at': '2025-12-31T06:56:48.691863Z', 'updated_at': '2025-12-31T06:56:48.731562Z', 'category': {'categoryId': 7, 'name': 'Gambo Lombo', 'description': 'Gambo lombo in the building', 'created_at': '2025-12-31T05:52:09.691881Z', 'updated_at': '2025-12-31T05:52:09.760293Z'}, 'language': {'languageId': 2, 'name': 'Twi', 'code': 'TWI', 'created_at': '2025-12-23T19:24:19.205546Z', 'updated_at': '2025-12-23T19:24:19.214126Z'}}]}
+"GET /api/portal/videos/ HTTP/1.1" 200 1108
