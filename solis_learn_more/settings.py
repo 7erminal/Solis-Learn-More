@@ -121,7 +121,7 @@ DATABASES = {
         # 'USER': 'root',
         # 'PASSWORD': 'password',
         'USER': 'solis',
-        'PASSWORD': 'solis1234@jc10',
+        'PASSWORD': 's0l1s1234@jc10T',
         # 'USER': 'mes',
         # 'PASSWORD': 'Mtts33R@16JuN3LLb',
         #'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',
