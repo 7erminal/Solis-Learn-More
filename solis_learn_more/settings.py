@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(=odjcc*w*mg_3yi3@jnc!db68#**27li_ro6zbw_dryz2xw1%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'solis-learn-more.readils.com']
+ALLOWED_HOSTS = ['localhost', 'solis-learn-more.readils.com', 'solisfinance.com']
 
 CORS_ORIGIN_ALLOW_ALL = True
 

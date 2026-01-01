@@ -54,6 +54,18 @@ class VideoUploadView(viewsets.ViewSet):
         status_ = status.HTTP_200_OK
         logger.info("Retrieved videos: %s", queryset)
 
+        # Get filter parameters from query string
+        language_id = request.query_params.get('language')
+        category_id = request.query_params.get('category')
+        
+        # Apply filters if provided
+        if language_id:
+            queryset = queryset.filter(language_id=language_id)
+        
+        if category_id:
+            queryset = queryset.filter(category_id=category_id)
+        
+
         serializer = VideoUploadSerializerList(queryset, many=True)
         logger.info("Serialized videos: %s", serializer.data)
         resp = Resp(StatusDesc=message, StatusCode=status_, Result=serializer.data)
