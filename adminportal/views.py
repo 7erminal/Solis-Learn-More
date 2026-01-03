@@ -55,7 +55,7 @@ class VideoUploadView(viewsets.ViewSet):
             helpers.generate_thumbnail(video.videoFile.path, timestamp, thumb_path)
 
             with open(thumb_path, "rb") as f:
-                video.thumbnail.save(f"thumb_{video.id}.jpg", File(f))
+                video.thumbnail.save(f"thumb_{video.videoLogId}.jpg", File(f))
 
             video.save()
 
