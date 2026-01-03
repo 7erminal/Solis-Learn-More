@@ -52,6 +52,7 @@ class VideoUploadSerializerList(serializers.ModelSerializer):
     # category = CategorySerializerGet()
     # language = LanguageSerializerGet()
     videoFile = serializers.CharField()
+    thumbnail = serializers.CharField()
     class Meta:
         model = VideoLog
         fields = '__all__'
