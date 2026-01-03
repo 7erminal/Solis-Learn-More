@@ -45,7 +45,7 @@ class VideoUploadView(viewsets.ViewSet):
 
             video.save()
 
-            thumb_path = f"/tmp/thumb_{video.id}.jpg"
+            thumb_path = f"/tmp/thumb_{video.videoLogId}.jpg"
             timestamp = float(serializer.validated_data.get('timestamp', None))
             helpers.generate_thumbnail(video.video.path, timestamp, thumb_path)
 
