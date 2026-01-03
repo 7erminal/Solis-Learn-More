@@ -1,4 +1,5 @@
 from django.shortcuts import render
+import tempfile
 
 from rest_framework import viewsets
 from rest_framework.response import Response
@@ -46,6 +47,10 @@ class VideoUploadView(viewsets.ViewSet):
             video.save()
 
             thumb_path = f"/tmp/thumb_{video.videoLogId}.jpg"
+
+            with tempfile.NamedTemporaryFile(suffix=".jpg", delete=False) as tmp:
+                thumb_path = tmp.name
+
             timestamp = float(serializer.validated_data.get('timestamp', None))
             helpers.generate_thumbnail(video.videoFile.path, timestamp, thumb_path)
 
