@@ -8,6 +8,7 @@ class VideoUploadSerializer(serializers.Serializer):
     videoFile = serializers.FileField()
     category = serializers.IntegerField()
     language = serializers.IntegerField()
+    timestamp = serializers.IntegerField(required=False)
 
 class CategorySerializer(serializers.Serializer):
     categoryName = serializers.CharField(max_length=100)

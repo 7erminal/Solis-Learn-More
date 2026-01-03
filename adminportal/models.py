@@ -22,5 +22,6 @@ class VideoLog(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='video_log_category')
     language = models.ForeignKey(Language, on_delete=models.CASCADE, related_name='video_log_language')
     videoFile = models.FileField(upload_to='video-logs', null=True, blank=True)
+    thumbnail = models.FileField(upload_to="video-thumbnails", null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
     updated_at = models.DateTimeField(auto_now=True, blank=True)

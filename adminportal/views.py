@@ -7,6 +7,8 @@ from rest_framework import status
 # Create your views here.
 from adminportal.serializers import CategoriesResponseSerializer, LanguagesResponseSerializer, VideoUploadSerializer, VideoUploadSerializerList, LanguageSerializer, CategorySerializer, LanguageSerializerGet, CategorySerializerGet, VideoUploadResponseSerializer, CategoryResponseSerializer, LanguageResponseSerializer, VideosUploadResponseSerializer
 from adminportal.models import VideoLog, Language, Category
+from adminportal.functions import helpers
+from django.core.files import File
 
 import logging
 logger = logging.getLogger("django")
@@ -42,6 +44,16 @@ class VideoUploadView(viewsets.ViewSet):
             )
 
             video.save()
+
+            thumb_path = f"/tmp/thumb_{video.id}.jpg"
+            timestamp = float(serializer.validated_data.get('timestamp', None))
+            helpers.generate_thumbnail(video.video.path, timestamp, thumb_path)
+
+            with open(thumb_path, "rb") as f:
+                video.thumbnail.save(f"thumb_{video.id}.jpg", File(f))
+
+            video.save()
+
             resp = Resp(StatusDesc=message, StatusCode=status_, Result=VideoUploadSerializerList(video).data)
             return Response(VideoUploadResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
         else:
