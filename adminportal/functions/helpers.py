@@ -14,6 +14,7 @@ def generate_thumbnail(video_path, timestamp, output_path):
         "-i", video_path,
         "-frames:v", "1",
         "-q:v", "2",
+        "-update", "1",
         "-y",
         output_path
     ]
