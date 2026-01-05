@@ -22,10 +22,10 @@ def generate_thumbnail(video_path, timestamp, output_path):
 
     print("FFMPEG STDOUT:", result.stdout)
     if result.returncode != 0:
-        logger.error("FFmpeg error: %s", result.stderr.decode())
-        logger.error(result.stderr.decode())
+        logger.error("FFmpeg error: %s", result.stderr)
+        logger.error(result.stderr)
         raise Exception("Failed to generate thumbnail")
-    logger.info(f"Thumbnail generated successfully {result.stdout.decode()}")
+    logger.info(f"Thumbnail generated successfully {result.stdout}")
     logger.info(f"Return code: {result.returncode}")
     logger.debug(f"Thumbnail generated at {output_path}")
     return output_path
