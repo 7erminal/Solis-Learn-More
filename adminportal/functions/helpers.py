@@ -1,7 +1,7 @@
 import subprocess
 
 import logging
-logger = logging.getLogger("django")
+logger = logging.getLogger(__name__)
 
 def generate_thumbnail(video_path, timestamp, output_path):
     logger.info("Generating thumbnail")
