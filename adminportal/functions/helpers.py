@@ -18,4 +18,9 @@ def generate_thumbnail(video_path, timestamp, output_path):
         "-y"
     ]
 
-    subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    if result.returncode != 0:
+        logger.error(f"FFmpeg error: {result.stderr.decode()}")
+        raise Exception("Failed to generate thumbnail")
+    return output_path
