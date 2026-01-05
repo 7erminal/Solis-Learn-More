@@ -4,7 +4,7 @@ import logging
 logger = logging.getLogger("django")
 
 def generate_thumbnail(video_path, timestamp, output_path):
-    logger.debug("Generating thumbnail")
+    logger.info("Generating thumbnail")
     """
     timestamp in seconds (float or int)
     """
