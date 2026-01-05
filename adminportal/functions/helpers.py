@@ -14,13 +14,14 @@ def generate_thumbnail(video_path, timestamp, output_path):
         "-i", video_path,
         "-frames:v", "1",
         "-q:v", "2",
-        output_path,
-        "-y"
+        "-y",
+        output_path
     ]
 
     result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
     print("FFMPEG STDOUT:", result.stdout)
+    logger.error(f"FFMPEG STDERR: {result.stderr}")
     if result.returncode != 0:
         logger.error("FFmpeg error: %s", result.stderr)
         logger.error(result.stderr)
