@@ -5,6 +5,7 @@ import logging
 logger = logging.getLogger("django")
 
 def generate_thumbnail(video_path, timestamp, output_path):
+    logger.debug(f"Generating thumbnail for {video_path} at {timestamp}s")
     """
     timestamp in seconds (float or int)
     """
@@ -23,4 +24,5 @@ def generate_thumbnail(video_path, timestamp, output_path):
     if result.returncode != 0:
         logger.error(f"FFmpeg error: {result.stderr.decode()}")
         raise Exception("Failed to generate thumbnail")
+    logger.debug(f"Thumbnail generated at {output_path}")
     return output_path
