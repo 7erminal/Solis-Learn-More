@@ -1,5 +1,4 @@
 import subprocess
-import os
 
 import logging
 logger = logging.getLogger("django")

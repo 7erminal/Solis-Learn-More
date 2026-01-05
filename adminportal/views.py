@@ -54,13 +54,18 @@ class VideoUploadView(viewsets.ViewSet):
 
             timestamp = float(serializer.validated_data.get('timestamp', None))
             logger.info("Generating thumbnail at %s seconds", timestamp)
-            res = helpers.generate_thumbnail(video.videoFile.path, timestamp, thumb_path)
-            logger.info("Thumbnail generated at %s", res)
+            try:
+                res = helpers.generate_thumbnail(video.videoFile.path, timestamp, thumb_path)
+                logger.info("Thumbnail generated at %s", res)
 
-            with open(thumb_path, "rb") as f:
-                video.thumbnail.save(f"thumb_{video.videoLogId}.jpg", File(f))
-
-            video.save()
+                with open(thumb_path, "rb") as f:
+                    video.thumbnail.save(f"thumb_{video.videoLogId}.jpg", File(f))
+                video.save()
+            except Exception as e:
+                logger.error("Error generating thumbnail: %s", str(e))
+                thumb_path = None
+            # res = helpers.generate_thumbnail(video.videoFile.path, timestamp, thumb_path)
+            # logger.info("Thumbnail generated at %s", res)
 
             os.remove(thumb_path)
 
