@@ -1,10 +1,10 @@
 import subprocess
 
 import logging
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("django")
 
 def generate_thumbnail(video_path, timestamp, output_path):
-    logger.debug(f"Generating thumbnail for {video_path} at {timestamp}s")
+    logger.debug("Generating thumbnail")
     """
     timestamp in seconds (float or int)
     """
@@ -22,8 +22,8 @@ def generate_thumbnail(video_path, timestamp, output_path):
 
     print("FFMPEG STDOUT:", result.stdout)
     if result.returncode != 0:
-        print("FFMPEG STDERR:", result.stderr)
-        logger.error(f"FFmpeg error: {result.stderr.decode()}")
+        logger.error("FFmpeg error: %s", result.stderr.decode())
+        logger.error(result.stderr.decode())
         raise Exception("Failed to generate thumbnail")
     logger.debug(f"Thumbnail generated at {output_path}")
     return output_path
