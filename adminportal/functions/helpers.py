@@ -1,6 +1,9 @@
 import subprocess
 import os
 
+import logging
+logger = logging.getLogger("django")
+
 def generate_thumbnail(video_path, timestamp, output_path):
     """
     timestamp in seconds (float or int)
@@ -15,4 +18,4 @@ def generate_thumbnail(video_path, timestamp, output_path):
         "-y"
     ]
 
-    subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)

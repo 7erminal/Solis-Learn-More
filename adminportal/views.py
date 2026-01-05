@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import tempfile
+import os
 
 from rest_framework import viewsets
 from rest_framework.response import Response
@@ -58,6 +59,8 @@ class VideoUploadView(viewsets.ViewSet):
                 video.thumbnail.save(f"thumb_{video.videoLogId}.jpg", File(f))
 
             video.save()
+
+            os.remove(thumb_path)
 
             resp = Resp(StatusDesc=message, StatusCode=status_, Result=VideoUploadSerializerList(video).data)
             return Response(VideoUploadResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
