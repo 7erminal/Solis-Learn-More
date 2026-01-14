@@ -72,7 +72,12 @@ class VideoUploadView(viewsets.ViewSet):
             # res = helpers.generate_thumbnail(video.videoFile.path, timestamp, thumb_path)
             # logger.info("Thumbnail generated at %s", res)
 
-            os.remove(thumb_path)
+            try:
+                if thumb_path and os.path.exists(thumb_path):
+                    os.remove(thumb_path)
+                    logger.info("Temporary thumbnail file removed: %s", thumb_path)
+            except Exception as e:
+                logger.error("Error removing temporary thumbnail file: %s", str(e))
 
             resp = Resp(StatusDesc=message, StatusCode=status_, Result=VideoUploadSerializerList(video).data)
             return Response(VideoUploadResponseSerializer(resp).data, status=status.HTTP_201_CREATED)
