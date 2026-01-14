@@ -33,6 +33,8 @@ class VideoUploadView(viewsets.ViewSet):
             description = serializer.validated_data.get('description')
             category = serializer.validated_data.get('category')
             language = serializer.validated_data.get('language')
+            externalUrl = serializer.validated_data.get('externalUrl', None)
+            useUrl = serializer.validated_data.get('useUrl', False)
             logger.info("Uploading video file: %s", videoFile.name)
             logger.info("Title: %s", title)
             logger.info("Description: %s", description)
@@ -42,7 +44,9 @@ class VideoUploadView(viewsets.ViewSet):
                 description=description,
                 videoFile=videoFile,
                 category=Category.objects.get(pk=category),
-                language=Language.objects.get(pk=language)
+                language=Language.objects.get(pk=language),
+                videourl=externalUrl,
+                useUrl=useUrl
             )
 
             video.save()
