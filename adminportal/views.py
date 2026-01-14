@@ -35,7 +35,8 @@ class VideoUploadView(viewsets.ViewSet):
             language = serializer.validated_data.get('language')
             externalUrl = serializer.validated_data.get('externalUrl', None)
             useUrl = serializer.validated_data.get('useUrl', False)
-            logger.info("Uploading video file: %s", videoFile.name)
+            if videoFile:
+                logger.info("Uploading video file: %s", videoFile.name)
             logger.info("Title: %s", title)
             logger.info("Description: %s", description)
             # Save the video file
