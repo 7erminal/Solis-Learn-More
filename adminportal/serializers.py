@@ -4,8 +4,8 @@ from adminportal.models import VideoLog
 
 class VideoUploadSerializer(serializers.Serializer):
     title = serializers.CharField(max_length=200)
-    description = serializers.CharField()
-    videoFile = serializers.FileField()
+    description = serializers.CharField(required=False)
+    videoFile = serializers.FileField(required=False)
     category = serializers.IntegerField()
     language = serializers.IntegerField()
     externalUrl = serializers.CharField(max_length=500, required=False)
