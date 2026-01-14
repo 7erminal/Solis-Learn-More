@@ -84,6 +84,11 @@ class VideoUploadView(viewsets.ViewSet):
         # Get filter parameters from query string
         language_id = request.query_params.get('language')
         category_id = request.query_params.get('category')
+
+        if category_id == 'All':
+            category_id = None
+        if language_id == 'All':
+            language_id = None
         
         # Apply filters if provided
         if language_id:
