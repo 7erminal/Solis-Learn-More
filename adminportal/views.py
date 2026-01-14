@@ -89,9 +89,11 @@ class VideoUploadView(viewsets.ViewSet):
             category_id = None
         if language_id == 'All':
             language_id = None
+
+        logger.info("Filter parameters - Language: %s, Category: %s", language_id, category_id)
         
         # Apply filters if provided
-        if language_id:
+        if language_id and category_id is None:
             try:
                 queryset = queryset.filter(language_id=language_id)
             except Exception as e:
@@ -105,7 +107,7 @@ class VideoUploadView(viewsets.ViewSet):
                     logger.error("Error applying filters: %s", str(e))
                     return Response({"error": "Error applying filters"}, status=status.HTTP_400_BAD_REQUEST)
         
-        if category_id:
+        if category_id and language_id is None:
             try:
                 queryset =queryset.filter(category_id=category_id)
             except Exception as e:
@@ -115,6 +117,22 @@ class VideoUploadView(viewsets.ViewSet):
                     if category:
                         category_id = category.categoryId
                         queryset =queryset.filter(category_id=category_id)
+                except Exception as e:
+                    logger.error("Error applying filters: %s", str(e))
+                    return Response({"error": "Error applying filters"}, status=status.HTTP_400_BAD_REQUEST)
+
+        if category_id and language_id:
+            try:
+                queryset =queryset.filter(category_id=category_id, language_id=language_id)
+            except Exception as e:
+                logger.error("Error applying filters: %s", str(e))
+                try:
+                    category = Category.objects.get(name=category_id.upper())
+                    language = Language.objects.get(code=language_id.upper())
+                    if category and language:
+                        category_id = category.categoryId
+                        language_id = language.languageId
+                        queryset =queryset.filter(category_id=category_id, language_id=language_id)
                 except Exception as e:
                     logger.error("Error applying filters: %s", str(e))
                     return Response({"error": "Error applying filters"}, status=status.HTTP_400_BAD_REQUEST)
