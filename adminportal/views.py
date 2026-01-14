@@ -92,11 +92,32 @@ class VideoUploadView(viewsets.ViewSet):
         
         # Apply filters if provided
         if language_id:
-            queryset = queryset.filter(language_id=language_id)
+            try:
+                queryset = queryset.filter(language_id=language_id)
+            except Exception as e:
+                logger.error("Error applying filters: %s", str(e))
+                try:
+                    language = Language.objects.get(code=language_id.upper())
+                    if language:
+                        language_id = language.languageId
+                        queryset =queryset.filter(language_id=language_id)
+                except Exception as e:
+                    logger.error("Error applying filters: %s", str(e))
+                    return Response({"error": "Error applying filters"}, status=status.HTTP_400_BAD_REQUEST)
         
         if category_id:
-            queryset = queryset.filter(category_id=category_id)
-        
+            try:
+                queryset =queryset.filter(category_id=category_id)
+            except Exception as e:
+                logger.error("Error applying filters: %s", str(e))
+                try:
+                    category = Category.objects.get(name=category_id.upper())
+                    if category:
+                        category_id = category.categoryId
+                        queryset =queryset.filter(category_id=category_id)
+                except Exception as e:
+                    logger.error("Error applying filters: %s", str(e))
+                    return Response({"error": "Error applying filters"}, status=status.HTTP_400_BAD_REQUEST)
 
         serializer = VideoUploadSerializerList(queryset, many=True)
         logger.info("Serialized videos: %s", serializer.data)
