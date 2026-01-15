@@ -124,6 +124,7 @@ class VideoUploadView(viewsets.ViewSet):
             except Exception as e:
                 logger.error("Error applying filters: %s", str(e))
                 try:
+                    logger.info("Trying to get category by name: %s", category_id.upper())
                     category = Category.objects.get(name=category_id.upper())
                     if category:
                         category_id = category.categoryId
