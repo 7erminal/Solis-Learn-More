@@ -25,5 +25,6 @@ class VideoLog(models.Model):
     thumbnail = models.FileField(upload_to="video-thumbnails", null=True, blank=True)
     videourl = models.CharField(max_length=500, null=True, blank=True)
     useUrl = models.BooleanField(default=False)
+    active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
     updated_at = models.DateTimeField(auto_now=True, blank=True)

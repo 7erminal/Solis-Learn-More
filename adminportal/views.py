@@ -47,7 +47,8 @@ class VideoUploadView(viewsets.ViewSet):
                 category=Category.objects.get(pk=category),
                 language=Language.objects.get(pk=language),
                 videourl=externalUrl,
-                useUrl=useUrl
+                useUrl=useUrl,
+                active=1
             )
 
             video.save()
@@ -146,7 +147,8 @@ class VideoUploadView(viewsets.ViewSet):
                 except Exception as e:
                     logger.error("Error applying filters: %s", str(e))
                     return Response({"error": "Error applying filters"}, status=status.HTTP_400_BAD_REQUEST)
-
+        
+        queryset = queryset.filter(active=1)
         serializer = VideoUploadSerializerList(queryset, many=True)
         logger.info("Serialized videos: %s", serializer.data)
         resp = Resp(StatusDesc=message, StatusCode=status_, Result=serializer.data)
