@@ -135,10 +135,41 @@ class VideoUploadView(viewsets.ViewSet):
 
         if category_id and language_id:
             try:
+                try:
+                    logger.info("Trying to get category by name: %s", category_id.upper())
+                    category = Category.objects.get(pk=category_id)
+                    if category:
+                        category_id = category.categoryId
+                except Exception as e:
+                    logger.error("Error applying filters: %s", str(e))
+                    try:
+                        logger.info("Trying to get category by name: %s", category_id.upper())
+                        category = Category.objects.get(name=category_id.upper())
+                        if category:
+                            category_id = category.categoryId
+                    except Exception as e:
+                        logger.error("Error applying filters: %s", str(e))
+
+                logger.info("Trying to get language by code: %s", language_id.upper())
+                try:
+                    language = Language.objects.get(pk=language_id)
+                    if language:
+                        language_id = language.languageId
+                except Exception as e:
+                    logger.error("Error applying filters: %s", str(e))
+                    try:
+                        language = Language.objects.get(code=language_id.upper())
+                        if language:
+                            language_id = language.languageId
+                    except Exception as e:
+                        logger.error("Error applying filters: %s", str(e))
+                    
                 queryset =queryset.filter(category_id=category_id, language_id=language_id)
             except Exception as e:
                 logger.error("Error applying filters: %s", str(e))
                 try:
+                    logger.info("Trying to get category by name: %s", category_id.upper())
+                    logger.info("Trying to get language by code: %s", language_id.upper())
                     category = Category.objects.get(name=category_id.upper())
                     language = Language.objects.get(code=language_id.upper())
                     if category and language:
