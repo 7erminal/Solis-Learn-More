@@ -122,7 +122,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'solis_video_portal',
+        'NAME': 'skill_builder',
         # 'USER': 'root',
         # 'PASSWORD': 'password',
         'USER': 'solis',
